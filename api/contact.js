@@ -86,7 +86,7 @@ export default async function handler(req, res) {
     // Send the notification email
     await resend.emails.send({
       from: 'Portfolio Contact <onboarding@resend.dev>',
-      to: 'kartik.bhwaj@gmail.com',
+      to: 'kartik.bhardwaj.dev@gmail.com',
       subject: `🔥 New inquiry from ${name}`,
       html: notificationHtml,
     });
