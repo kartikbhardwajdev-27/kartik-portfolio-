@@ -51,9 +51,11 @@ export function About() {
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           <div className="bg-dark-200 border border-dark-300 rounded-2xl p-8">
-            <div className="w-full aspect-square max-w-xs mx-auto bg-dark-300 rounded-xl flex items-center justify-center mb-6">
-              <span className="text-accent font-display font-bold text-6xl">KB</span>
-            </div>
+            <img
+              src="/profile.webp"
+              alt="Kartik Bhardwaj"
+              className="w-full aspect-square max-w-xs mx-auto rounded-xl object-cover object-top"
+            />
           </div>
 
           <div className="flex gap-3 justify-center flex-wrap mt-4">
